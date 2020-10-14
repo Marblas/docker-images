@@ -1,4 +1,4 @@
-FROM python:3.7@sha256:a54a83ddb00879a53b33d2ec4ca8ada540bc9251e80dce276d8caf4ddc326274
+FROM python:3.9@sha256:7e2a5829970d072caac429607271c838cd83715e8f77867cb5f30b7e13a3835d
 WORKDIR /opt/src
 COPY requirements.txt .
 RUN pip install -r requirements.txt
